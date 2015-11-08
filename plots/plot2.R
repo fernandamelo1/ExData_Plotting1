@@ -6,5 +6,6 @@ FinalData <- cbind(SetTime, FinalData)
 
 
 
-## Plot 2:
-plot(FinalData$SetTime, FinalData$Global_active_power, type="l", col="blue", xlab="", ylab="Global Active Power (kilowatts)")
+## Plot 2
+
+plot(FinalData$SetTime, FinalData$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
